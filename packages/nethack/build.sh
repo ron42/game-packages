@@ -35,4 +35,5 @@ termux_step_make_install() {
 	mkdir -p $TERMUX_PREFIX/share/man/man6
 	cp nethack.6 $TERMUX_PREFIX/share/man/man6/
 	ln -sf $TERMUX_PREFIX/games/nethack $TERMUX_PREFIX/bin/
+        mkdir -p $TERMUX_PREFIX/games/nethackdir/save
 }
